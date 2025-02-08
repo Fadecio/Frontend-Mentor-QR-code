@@ -1,0 +1,18 @@
+@media(max-width: 445px){
+    body {
+        max-width: 100%;
+    }
+
+    .container {
+        max-width: 90%;
+        max-height: 80%;
+    }
+
+    .container img {
+        max-width: 90%;
+    }
+
+    .container h1 {
+        font-size: 20px;
+    }
+}
