@@ -14,41 +14,43 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 355px;
-    height: 550px;
+    max-width: 320px;
+    height: 499px;
     border-radius: 22px;
 
 }
 
-.container img {
-    width: 320px;    
-    margin-top: 20px;
+.logo img {
+    max-width: 288px;    
+    margin: 16px 16px 24px 16px;
     border-radius: 10px;
 }
 
-.container h1 {
-    width: 80%;
-    height: 200px;
-    font-family: 'Outfit', serif;
-    font-size: 24px;
-    font-weight: 700;
+.text-container {
+    max-width: 288px;
+    height: 131px;
+    padding: 0 16px 0 16px;
+}
+.text-container h1 {
+    
+    font-family: 'Outfit', serif;    
+    font-weight: bold;
+    font-size: 22px;
     display: flex;
     align-items: center;
     text-align: center;
-    margin-top: 22px;
     color: #1f3251;
+    padding-bottom: 16px;
 }
 
-.container span {
-    width: 80%;
-    height: 200px;
-    font-family: 'Outfit', serif;
-    font-size: 17px;
+.text-container span {
+
+    font-family: 'Outfit', serif;   
     font-weight: 400;
+    font-size: 15px;
     display: flex;
     align-items: center;
-    text-align: center;
-    margin-top: 15px;
+    text-align: center;    
     color: #52688d;
 }
 
@@ -56,5 +58,5 @@ body {
     font-size: 11px;
     text-align: center;
     color: hsl(228, 45%, 44%);
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
